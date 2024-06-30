@@ -4,14 +4,14 @@ pub fn bytes_to_u64(bytes: &[u8]) -> u64 {
     }
 
     let mut buf = [0u8; 8];
-    buf[0]  = bytes[0];
-    buf[1]  = bytes[1];
-    buf[2]  = bytes[2];
-    buf[3]  = bytes[3];
-    buf[4]  = bytes[4];
-    buf[5]  = bytes[5];
-    buf[6]  = bytes[6];
-    buf[7]  = bytes[7];
+    buf[0] = bytes[0];
+    buf[1] = bytes[1];
+    buf[2] = bytes[2];
+    buf[3] = bytes[3];
+    buf[4] = bytes[4];
+    buf[5] = bytes[5];
+    buf[6] = bytes[6];
+    buf[7] = bytes[7];
 
     return u64::from_be_bytes(buf);
 }
