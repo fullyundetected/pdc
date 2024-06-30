@@ -1,6 +1,5 @@
 use crate::pdc;
 
-
 static PDC_C1: u128 = 0x173e48cd64013002cdb096a090c4ed7d;
 static PDC_C2: u128 = 0x78aaa20eb1e0b84717d0d336b4f620df;
 
