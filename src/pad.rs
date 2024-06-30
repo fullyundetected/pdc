@@ -1,5 +1,5 @@
 pub fn bytes_to_u64(bytes: &[u8]) -> u64 {
-    if bytes.len() != 16 {
+    if bytes.len() != 8 {
         return 0;
     }
 

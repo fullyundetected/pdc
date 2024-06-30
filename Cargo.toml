@@ -1,7 +1,11 @@
 [package]
-name = "PDC"
-version = "0.1.0"
+name = "pdc-rs"
+version = "1.0.1"
 edition = "2021"
+authors = ["Printer"]
+description = "pdc (perfectly diffused cipher)"
+repository = "https://github.com/fullyundetected/pdc"
+license = "MIT"
 
 [profile.dev]
 overflow-checks = false

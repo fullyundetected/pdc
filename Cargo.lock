@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "PDC"
-version = "0.1.0"
+name = "pdc-rs"
+version = "1.0.1"
